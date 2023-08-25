@@ -1,0 +1,65 @@
+body {
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(127, 255, 212, 0.612);
+   
+
+}
+
+a {
+    text-decoration: none;
+    
+
+}
+
+h1{
+    font-family: 'Medula One', cursive;
+    color:black;
+    font-size: 30px;
+}
+.content {
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+form{
+    background-color: rgba(255, 253, 252, 0.744);
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input {
+    outline: none;
+    width: 95%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #b2b2b2;
+}
+select{
+    outline: none;
+    width: 99%;
+    margin-top: 7px;
+    padding: 10px;
+    border: 1px solid #b2b2b2;
+}
+h1{
+    text-align: center;
+}
+input[type="submit"] {
+    width: 100% !important;
+    cursor: pointer;
+    background: black;
+    padding: 8px 5px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
