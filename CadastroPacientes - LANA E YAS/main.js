@@ -9,7 +9,7 @@ class Pacientes {
     }
 
     cadastrarPaciente() {
-        console.log(`Ó seu nome é: ${this.nome}.
+        console.log(`O seu nome é: ${this.nome}.
         Seu CPF é: ${this.cpf}.
         Seu endereço é: ${this.endereco}
         Seu telefone é: ${this.telefone}.
@@ -17,3 +17,6 @@ class Pacientes {
     }
 
 }
+
+var paciente1 = new Pacientes("Lana",22223222, "rua airen", 99999, "particular")
+paciente1.cadastrarPaciente();
