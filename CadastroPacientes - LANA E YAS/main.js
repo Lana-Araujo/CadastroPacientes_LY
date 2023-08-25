@@ -9,13 +9,11 @@ class Pacientes {
     }
 
     cadastrarPaciente() {
-        document.write(`Ó seu nome é: ${this.nome}.
+        console.log(`Ó seu nome é: ${this.nome}.
         Seu CPF é: ${this.cpf}.
         Seu endereço é: ${this.endereco}
         Seu telefone é: ${this.telefone}.
         Seu plano é: ${this.plano}.`)
     }
-
-
 
 }
